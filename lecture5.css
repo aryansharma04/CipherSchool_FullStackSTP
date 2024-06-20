@@ -1,0 +1,44 @@
+p{
+    text-align: center;
+}
+#para{
+    text-align: center;
+}
+.para-class{
+    text-align: center;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, .para-class{
+    text-align: center;
+    color: red;
+}
+
+/* div > p{
+    background-color: cyan;
+} */
+
+div  p{
+    background-color: yellow;
+}
+
+div +p{
+    background-color: aquamarine;
+}
+
+div ~p{
+    background-color: chocolate;
+}
+
+div ~p:hover{
+    background-color: chartreuse;
+}
+div~p::first-letter{
+    color: violet;
+}
+
+a[target]{
+    background-color: cornflowerblue;
+}
