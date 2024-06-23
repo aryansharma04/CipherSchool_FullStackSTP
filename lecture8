@@ -1,0 +1,33 @@
+let heading = document.querySelectorAll("h2");
+    const firstHeading = heading[0];
+
+    console.log(firstHeading)
+    const secondHeading = heading[1];
+    console.log(secondHeading)
+
+    const orange=document.querySelector(".orange").innerHTML;
+    console.log(orange)
+
+    const listchil=document.createElement("li")
+    listchil.innerText="masumi"
+
+    const appleList=document.querySelector(".apple-list").appendChild(listchil)
+    // console.log(appleList)
+    // console.log(appleList[0])
+    // console.log(appleList)
+
+    let lastchi=document.querySelector(".apple-list").lastElementChild;
+    console.log(lastchi)
+
+    let firstchi=document.querySelector(".apple-list").firstElementChild;
+    console.log(firstchi.innerText)
+
+    let parNode=document.querySelector(".apple-list")
+    console.log(parNode.parentNode) 
+    console.log(parNode.parentElement) 
+
+    const prevSibling=document.querySelector(".orange").previousElementSibling;
+    console.log(prevSibling)
+
+    const nextSibling=document.querySelector(".orange").nextElementSibling;
+    console.log(nextSibling)
