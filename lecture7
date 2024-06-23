@@ -1,0 +1,6 @@
+document.write("Aryan")
+undefined
+document.write("Sharma")
+undefined
+
+document.val.name.value
